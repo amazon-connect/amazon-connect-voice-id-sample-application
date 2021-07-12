@@ -1,17 +1,16 @@
-## My Project
 
-TODO: Fill this README out!
+# Amazon Connect Voice ID demo  
 
-Be sure to:
+This demo shows how you can use [Amazon Connect Voice ID](https://aws.amazon.com/connect/voice-id/) for Real-time caller authentication.  
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Usage
+Use `sam` to build, invoke and deploy the function.
 
-## Security
+##### SAM Build:
+Ensure you are in the root folder
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+`sam build --use-container`
 
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+##### SAM Deploy:
+`sam deploy --guided` 
+Follow the on-screen prompts. To accept the default options provided in the interactive experience, respond with Enter.
