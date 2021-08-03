@@ -150,9 +150,7 @@ Resources:
                 ViewerProtocolPolicy: redirect-to-https
             Restrictions:
                 GeoRestriction:
-                    RestrictionType: whitelist
-                    Locations:
-                        - US
+                    RestrictionType: none
 
     CFWebsiteCreatorRole:
         Type: "AWS::IAM::Role"
