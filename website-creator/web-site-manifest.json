@@ -4,7 +4,7 @@
         "./js/aws-sdk.min-qc.js",
         "./js/voiceid.js",
         "./js/amazon-connect-1.6.3.js",
-        "./js/jquery-3.1.0.min.js",
+        "./js/jquery-3.6.0.min.js",
         "./js/jquery-ui.js",
         "./voiceid.html"
     ]
