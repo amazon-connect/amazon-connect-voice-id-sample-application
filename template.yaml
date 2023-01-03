@@ -82,6 +82,13 @@ Resources:
             WebsiteConfiguration:
                 IndexDocument: voiceid.html
                 ErrorDocument: error.html
+            BucketEncryption:
+              ServerSideEncryptionConfiguration:
+                - ServerSideEncryptionByDefault:
+                    SSEAlgorithm: 'AES256'
+            VersioningConfiguration:
+              Status: Enabled
+
  
  
     CFS3BucketPolicy:
